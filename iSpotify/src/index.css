@@ -1,0 +1,12 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	font-size: 62.5%; /* 1rem = 10px agora*/
+}
+
+* {
+	box-sizing: border-box;
+}

@@ -1,0 +1,47 @@
+.artistTracksPage {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(
+		to bottom,
+		#17a6e4 0%,
+		#0c5676 39%,
+		#000000 81%
+	);
+	display: flex;
+}
+
+.tracksContainer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 35%;
+	align-self: flex-end;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	width: 95%;
+	align-self: center;
+	position: sticky;
+	top: 0;
+}
+
+.header p {
+	font-size: 2rem;
+	color: whitesmoke;
+}
+
+.separator {
+	width: 95%;
+}
+
+.tracks {
+	width: 100%;
+	flex-direction: column;
+	align-self: flex-end;
+	overflow-y: scroll;
+}

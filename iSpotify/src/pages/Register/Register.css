@@ -1,0 +1,81 @@
+
+
+body{
+    background-color: #111 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    height: 98vh;
+}
+
+.mainContent{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+  h1,h2{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+  }
+
+  h1{
+    font-size: 38px ;
+  }
+
+
+  .buttonRegister {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    background-color: rgb(63, 255, 104);
+    color: white;
+    border:#111  ;
+    border-radius: 25px;
+    width: 200px;
+    height: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+  }
+
+  .buttonRegister:hover {
+    background-color: #ffffff;
+    color: #111111;
+  }
+
+  h3{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  a{
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  a:hover {
+        color: #3FE168;
+  }

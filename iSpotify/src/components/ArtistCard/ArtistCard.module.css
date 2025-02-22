@@ -1,0 +1,38 @@
+.artistCard
+{
+    background-color: #1F1F1F;
+    border-radius: 5%;
+    width: 19.6rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.artistLink
+{
+    text-decoration: none;
+}
+
+.artistImage
+{
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.artistName
+{
+    color: #FFFFFF;
+    align-self: flex-start;
+}
+.placeholder
+{
+    color: #8C8C8C;
+    align-self: flex-start;
+}

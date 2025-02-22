@@ -1,0 +1,60 @@
+.trackContainer {
+	display: flex;
+	flex-direction: column;
+	font-size: 1.8rem;
+	color: #d9d9d9;
+	gap: 6rem;
+}
+
+.trackInfo {
+	display: flex;
+	justify-content: space-between;
+	width: 95%;
+	align-self: center;
+}
+
+.trackNameAndArtistAndIndex {
+	display: flex;
+	margin-left: 2rem;
+	gap: 1rem;
+}
+
+.trackIndex {
+	width: 20px;
+	height: 25px;
+	font-size: 1.6rem;
+	color: #909090;
+	line-height: 5;
+}
+
+.trackNameAndArtistName {
+	text-align: start;
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	height: 40px;
+	margin-top: 2rem;
+}
+
+.trackName {
+	margin: 0;
+}
+
+.artistName {
+	margin: 0; /* Remove qualquer margem padrão */
+	margin-top: 1rem; /* Ajuste o valor para a distância desejada */
+}
+
+.albumName {
+	display: flex;
+	width: 400px;
+	height: 40px;
+	text-align: start;
+	line-height: -1rem;
+	margin-top: 1rem;
+}
+
+.deleteIcon:hover {
+	color: red;
+	cursor: pointer;
+}
