@@ -3,7 +3,6 @@ import { Link, useNavigate } from "react-router-dom";
 import styles from "./Sidebar.module.css";
 import { logout, getCurrentUser } from "../../spotify";
 
-
 export default function Sidebar() {
 	const navigate = useNavigate();
 	const [user, setUser] = useState(null);
