@@ -36,14 +36,6 @@ const LoginForm = () => {
 		}
 	};
 
-	/*try {
-			await login(email, password);
-			navigate("/artists");
-		} catch (err) {
-			setError(err.message);
-		}
-	};*/
-
 	const handleRegister = () => {
 		navigate("/register");
 	};
