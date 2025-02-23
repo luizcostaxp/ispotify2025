@@ -33,8 +33,8 @@ export default function Sidebar() {
 	const links = [
 		{ name: "Artistas", path: "/artists"},
 		...(user ? [
-			{ name: "Músicas Curtidas", path: `/liked-musics/${user.id}`, icon: <span className="material-icons">favorite</span> },
-			{ name: "Minha Conta", path: `/my-account/${user.id}`, icon: <span className="material-icons">account_circle</span> },
+			{ name: "Músicas Curtidas", path: `/liked-musics/${user.id}`, icon: <span className="material-icons" style={{ fontSize: '27px' }}>favorite</span> },
+			{ name: "Minha Conta", path: `/my-account/${user.id}`, icon: <span className="material-icons" style={{ fontSize: '27px' }}>account_circle</span> },
 		] : []),
 	];
 
