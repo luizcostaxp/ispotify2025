@@ -43,7 +43,7 @@ const LoginForm = () => {
 	return (
 		<div className={styles.loginPage}>
 			<div className={styles.loginContainer}>
-				<div className={styles.title}>iSpotify ®</div>
+				<div className={styles.title}>iSpotify®</div>
 				<div className={styles.subtitle}>Música para todos.</div>
 				{error && (
 					<Alert
