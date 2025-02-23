@@ -15,11 +15,11 @@ export default function LikedMusics() {
             <Sidebar />
             <div className={styles.tracksContainer}>
                 <div className={styles.header}>
-                    <p>#TÍTULO</p>
-                    <p>GÊNERO</p>
+                    <p># TÍTULO</p>
+                    <p>Gênero</p>
                     <AccessTimeIcon
                         style={{
-                            fontSize: "3.5rem",
+                            fontSize: "28px",
                             color: "white",
                             marginTop: "2rem",
                         }}

@@ -15,7 +15,7 @@
 
 .trackNameAndArtistAndIndex {
 	display: flex;
-	margin-left: 2rem;
+	margin-left: 0rem;
 	gap: 1rem;
 }
 
@@ -25,6 +25,10 @@
 	font-size: 1.6rem;
 	color: #909090;
 	line-height: 5;
+}
+
+.trackIndex span{
+	color: white;
 }
 
 .trackNameAndArtistName {

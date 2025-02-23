@@ -31,17 +31,17 @@ export default function Sidebar() {
 	};
 
 	const links = [
-		{ name: "Artistas", path: "/artists", icon: <span className="material-icons" style={{ fontSize: '20px', marginRight: '8px'}}>album</span> },
+		{ name: "Artistas", path: "/artists", icon: <span className="material-icons" style={{ fontSize: '20px', marginRight: '5px'}}>album</span> },
 		...(user ? [
-			{ name: "Músicas Curtidas", path: `/liked-musics/${user.id}`, icon: <span className="material-icons" style={{ fontSize: '20px', marginRight: '8px'}}>favorite</span> },
-			{ name: "Minha Conta", path: `/my-account/${user.id}`, icon: <span className="material-icons" style={{ fontSize: '20px', marginRight: '8px'}}>account_circle</span> },
+			{ name: "Músicas Curtidas", path: `/liked-musics/${user.id}`, icon: <span className="material-icons" style={{ fontSize: '20px', marginRight: '5px'}}>favorite</span> },
+			{ name: "Minha Conta", path: `/my-account/${user.id}`, icon: <span className="material-icons" style={{ fontSize: '20px', marginRight: '5px'}}>account_circle</span> },
 		] : []),
 	];
 
 	return (
 		<div className={styles.sidebar}>
-			<span>
-				<strong>iSpotify®</strong>
+			<span className={styles.brandText}>
+				<strong>iSpotify ®</strong>
 			</span>
 			{links.map((link) => (
 				<Link
@@ -53,6 +53,7 @@ export default function Sidebar() {
 				</Link>
 			))}
 			<button className={styles.logoutButton} onClick={handleLogout}>
+			<span className="material-icons" style={{ marginRight: '8px' }}>logout</span>
 				Logout
 			</button>
 		</div>

@@ -6,9 +6,8 @@
 	height: 100vh;
 	background: linear-gradient(
 		to bottom,
-		#17a6e4 0%,
-		#0c5676 39%,
-		#000000 81%
+		#5E44FF54 33%,
+		#000000 77%
 	);
 	display: flex;
 }
@@ -31,7 +30,7 @@
 }
 
 .header p {
-	font-size: 2rem;
+	font-size: 18px;
 	color: whitesmoke;
 }
 
