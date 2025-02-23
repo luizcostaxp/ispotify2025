@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import styles from "./Sidebar.module.css";
 import { logout, getCurrentUser } from "../../spotify";
 
+
 export default function Sidebar() {
 	const navigate = useNavigate();
 	const [user, setUser] = useState(null);
@@ -30,10 +31,10 @@ export default function Sidebar() {
 	};
 
 	const links = [
-		{ name: "Artistas", path: "/artists" },
+		{ name: "Artistas", path: "/artists"},
 		...(user ? [
-			{ name: "Músicas Curtidas", path: `/liked-musics/${user.id}`},
-			{ name: "Minha Conta", path: `/my-account/${user.id}` },
+			{ name: "Músicas Curtidas", path: `/liked-musics/${user.id}`, icon: <span className="material-icons">favorite</span> },
+			{ name: "Minha Conta", path: `/my-account/${user.id}`, icon: <span className="material-icons">account_circle</span> },
 		] : []),
 	];
 
