@@ -32,16 +32,10 @@ const Register = () => {
 				<div className="mainContent">
 					<h1>
 						Inscrever-se em uma <br></br>conta grátis do <br></br>{" "}
-						iSpotify ®
+						iSpotify®
 					</h1>
 					{error && <div className="error-message">{error}</div>}
 					<form className="form" onSubmit={handleRegister}>
-						<Input
-							tipo="Nome"
-							imgSrc="src/assets/account.png"
-							value={name}
-							onChange={(e) => setName(e.target.value)}
-						/>
 						<Input
 							tipo="Email"
 							imgSrc="src/assets/mail.png"
@@ -54,6 +48,12 @@ const Register = () => {
 							imgSrc="src/assets/lock.png"
 							value={password}
 							onChange={(e) => setPassword(e.target.value)}
+						/>
+						<Input
+							tipo="Como devemos chamar você?"
+							imgSrc="src/assets/account.png"
+							value={name}
+							onChange={(e) => setName(e.target.value)}
 						/>
 						<button className="buttonRegister" type="submit">
 							CADASTRAR
