@@ -7,11 +7,13 @@
 	width: 18%;
 	background-color: black;
 	font-size: 1.5rem;
+	font-weight: 700;
 	text-align: center;
 	color: white;
 	padding: 1rem;
 	white-space: nowrap;
 	overflow: hidden;
+	position: relative;
 }
 
 .linkStyle {
@@ -33,5 +35,5 @@ span {
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;
-	cursor: pointer;
+	cursor: pointer;	
 }

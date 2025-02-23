@@ -32,7 +32,7 @@ export default function Sidebar() {
 	const links = [
 		{ name: "Artistas", path: "/artists" },
 		...(user ? [
-			{ name: "Músicas Curtidas", path: `/liked-musics/${user.id}` },
+			{ name: "Músicas Curtidas", path: `/liked-musics/${user.id}`},
 			{ name: "Minha Conta", path: `/my-account/${user.id}` },
 		] : []),
 	];
@@ -48,7 +48,7 @@ export default function Sidebar() {
 					key={link.path}
 					to={link.path}
 				>
-					{link.name}
+					{link.icon}{link.name}
 				</Link>
 			))}
 			<button className={styles.logoutButton} onClick={handleLogout}>
