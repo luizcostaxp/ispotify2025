@@ -31,10 +31,10 @@ export default function Sidebar() {
 	};
 
 	const links = [
-		{ name: "Artistas", path: "/artists"},
+		{ name: "Artistas", path: "/artists", icon: <span className="material-icons" style={{ fontSize: '20px', marginRight: '8px'}}>album</span> },
 		...(user ? [
-			{ name: "Músicas Curtidas", path: `/liked-musics/${user.id}`, icon: <span className="material-icons" style={{ fontSize: '27px' }}>favorite</span> },
-			{ name: "Minha Conta", path: `/my-account/${user.id}`, icon: <span className="material-icons" style={{ fontSize: '27px' }}>account_circle</span> },
+			{ name: "Músicas Curtidas", path: `/liked-musics/${user.id}`, icon: <span className="material-icons" style={{ fontSize: '20px', marginRight: '8px'}}>favorite</span> },
+			{ name: "Minha Conta", path: `/my-account/${user.id}`, icon: <span className="material-icons" style={{ fontSize: '20px', marginRight: '8px'}}>account_circle</span> },
 		] : []),
 	];
 
