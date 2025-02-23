@@ -3,7 +3,7 @@
 	flex-direction: column;
 	font-size: 1.8rem;
 	color: #d9d9d9;
-	gap: 6rem;
+	gap: 1rem;
 }
 
 .trackInfo {
@@ -15,7 +15,7 @@
 
 .trackNameAndArtistAndIndex {
 	display: flex;
-	margin-left: 0rem;
+	margin-left: 1rem;
 	gap: 1rem;
 }
 
@@ -45,8 +45,9 @@
 }
 
 .artistName {
-	margin: 0; /* Remove qualquer margem padrão */
-	margin-top: 1rem; /* Ajuste o valor para a distância desejada */
+	color: white;
+	margin: 0; 
+	margin-top: 0rem; 
 }
 
 .albumName {

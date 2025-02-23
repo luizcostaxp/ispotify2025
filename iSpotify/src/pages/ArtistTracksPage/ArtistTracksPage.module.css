@@ -12,11 +12,87 @@
 	display: flex;
 }
 
+.artistImage{
+	width:170px;
+	height:170px;
+	margin-top: 10%;
+	margin-left: 3%;
+}
+
+.mainContainer{
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	display:flex;
+}
+
+.artistInfy{
+	display: flex; 
+	width: 100%;
+	height: 55%;
+	justify-content: flex-start;
+}
+.artistInfo{
+	display: flex;
+    align-items: center;
+	margin-left:3%;
+}
+
+.artistDetails {
+    margin-left: 40px; /* Distância entre a imagem e os detalhes */
+}
+
+.artistLabel {
+	color: white;
+	font-family: 'Inter';
+	font-size: 14px;
+	font-weight:bold;
+}
+
+.artistName{
+	color: white;
+	font-family: 'Inter';
+	margin-top:0rem;
+	font-size: 35px;
+	font-weight:bold;
+	white-space: nowrap;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+	margin-left: 4%;
+	margin-bottom: 40px;
+    align-items: center;
+}
+
+.buttons .material-icons {
+    margin-right: 5px;
+}
+
+.buttons .material-icons:last-child {
+    margin-right: 0;
+}
+
+.playButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1DB954;
+    border-radius: 50%;
+	margin-right:7px;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+}
+
+
 .tracksContainer {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	height: 35%;
+	height: 40%;
 	align-self: flex-end;
 }
 
