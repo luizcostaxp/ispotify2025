@@ -27,8 +27,16 @@ export default function LikedMusics() {
                             <p className={styles.artistName}>Músicas Curtidas</p>
                         </div>
                     </div>
-                   
-                
+                </div>
+                <div className={styles.buttons}>
+                    <div className={styles.playButton}>
+                        <span className="material-icons" style={{ fontSize: '30px', color: 'black' }}>
+                            play_arrow
+                        </span>
+                    </div>
+                    <span className="material-icons" style={{ fontSize: '30px', color: 'white' }}>
+                        download
+                    </span>
                 </div>
                 <div className={styles.tracksContainer}>
                     <div className={styles.header}>
